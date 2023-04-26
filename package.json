@@ -1,0 +1,14 @@
+{
+  "name": "app_meteo",
+  "version": "1.0.0",
+  "description": "Création d'une application météo avec un API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
