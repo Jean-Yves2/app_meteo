@@ -2,11 +2,9 @@
 "use Script";
 
 
+
 document.addEventListener("DOMContentLoaded",()=>{
 // eslint-disable-next-line no-unused-vars
-
-
-
 
   let nom_de_ville = document.querySelector('#nom_de_ville');
   let valide =document.querySelector('#valide');
@@ -15,7 +13,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   valide.addEventListener('click', (event) => meteo(nom_de_ville));
 
   function meteo(){
-    fetch(`http://api.weatherstack.com/current?access_key=${process.env.API_KEY}&query=${nom_de_ville.value}`)
+    fetch(`http://api.weatherstack.com/current?access_key=${API_KEY}&query=${nom_de_ville.value}`)
 
       .then(response => response.json())
       .then(response=>{
