@@ -1,6 +1,6 @@
 # Application meteo
 
-## Création d'une application météo avec un API
+## Création d'une application météo avec une API
 
 Le choix de l'api effectuer dans notre projet est l'api de `weatherstack.com`.
 
