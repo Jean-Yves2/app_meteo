@@ -21,3 +21,7 @@ Pour lancé cette application vous aurrez besoin d'une clé api personnel de **w
 
   - Crée dans le dossier *Js* un fichier nommer `api_key.js`
   - Y insérer `API_KEY=' Your API key '`
+
+## Page de l'application
+
+![Application Page](./img/preview_app/preview_page.png)
