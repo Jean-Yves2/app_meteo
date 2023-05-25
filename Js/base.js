@@ -43,6 +43,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 
         let is_day =response['current']['is_day'];
         backgroundPage = document.getElementById('background');
+
+        backgroundPage.classList.remove("night", "day", "default_page");
         console.log(is_day);
         if(is_day=='no'){
           backgroundPage.classList.add('night');
