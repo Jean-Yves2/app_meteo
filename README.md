@@ -1,27 +1,33 @@
-# Application meteo
+# Weather Application
 
-## Création d'une application météo avec une API
+## Creating a Weather Application with an API
 
-Le choix de l'api effectuer dans notre projet est l'api de `weatherstack.com`.
+The API chosen for our project is the `weatherstack.com` API.
 
-### Lancement de l'application
+### Launching the Application
 
-Pour lancé cette application vous aurrez besoin d'une clé api personnel de **weatherstack.com**.
+To launch this application, you will need a personal API key from **weatherstack.com**.
 
-- **ETAPE 0**
+- **Step 0**
 
-  - Cloner le projet `git clone git@github.com:Jean-Yves2/app_meteo.git`
+  - Clone the project: `git clone git@github.com:Jean-Yves2/app_meteo.git`
+  - Install the required packages with `npm install` if you are using **npm**
 
-- **Etape 1**
+- **Step 1**
 
-  - Effectuer Votre inscription sur le site
-  - Dans le DashBoard vous aurrez acces avec votre **clé API**
+  - Register on the website.
+  - In the Dashboard, you will find your **API key**.
 
-- **ETAPE 2**
+- **Step 2**
 
-  - Crée dans le dossier *Js* un fichier nommer `api_key.js`
-  - Y insérer `API_KEY=' Your API key '`
+  - Create a **.env** file.
+  - Insert a variable `API_KEY='Your API key'`.
+  - Choose a **PORT**, for example, `PORT=3000`.
 
-## Page de l'application
+- **Step 3**
 
-![Application Page](./img/preview_app/preview_page.png)
+  - In the console, run `node server` to launch the application.
+
+## Application Page
+
+![Application Page](./public/img/preview_app/preview_page.png)
