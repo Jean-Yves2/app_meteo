@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainCheck</title>
+    <link rel="stylesheet" type="text/css" href="/Css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>RainCheck</h1>
+    </header>
+
+    <main id="background" class="default_page">
+
+
+        <div class="weather-card">
+            <div id="search">
+
+                <form id="name_form">
+                    <input id="nom_de_ville" type="text" placeholder="Nom de ville">
+                    <button id="valide" type="submit">Validé</button>
+                </form>
+
+            </div>
+            <div class="location">
+                <h2><span id="name_ville">Paris</span>, <span id="country">France</span></h2>
+                <p id="date">Mercredi, 8 Mai 2023</p>
+            </div>
+            <div class="weather-info">
+                <div class="temperature">
+                    <h3 id="temp"></h3>
+                    <img>
+                </div>
+                <div class="details">
+                    <p>Humidité: <span id="humidity">40%</span></p>
+                    <p>Vitesse du vent: <span id="vitesse"></span> Km/h</p>
+                    <p>Pression atmosphérique: <span id="pressure">1015</span> MB</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 RainCheck By JY</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
+    <script src="/Js/base.js"></script>
+</body>
+
+</html>
